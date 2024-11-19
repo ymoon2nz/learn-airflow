@@ -1,0 +1,512 @@
+[2024-11-13T19:28:55.227+1100] {processor.py:186} INFO - Started process (PID=63680) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:28:55.227+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:28:55.228+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.228+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:28:55.239+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:28:55.338+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.338+1100] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2024-11-13T19:28:55.341+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.341+1100] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2024-11-13T19:28:55.343+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.343+1100] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2024-11-13T19:28:55.346+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.346+1100] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2024-11-13T19:28:55.348+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.348+1100] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2024-11-13T19:28:55.350+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.350+1100] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2024-11-13T19:28:55.352+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.352+1100] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2024-11-13T19:28:55.352+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.352+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:28:55.356+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.356+1100] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2024-11-13T19:28:55.356+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:28:55.356+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:28:55.362+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.137 seconds
+[2024-11-13T19:30:38.177+1100] {processor.py:186} INFO - Started process (PID=63893) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:30:38.178+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:30:38.178+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:30:38.178+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:30:38.188+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:30:38.247+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:30:38.247+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:30:38.251+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:30:38.251+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:30:38.258+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T19:31:49.873+1100] {processor.py:186} INFO - Started process (PID=64023) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:31:49.874+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:31:49.874+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:31:49.874+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:31:49.884+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:31:49.942+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:31:49.942+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:31:49.946+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:31:49.946+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:31:49.952+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:32:58.446+1100] {processor.py:186} INFO - Started process (PID=64266) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:32:58.447+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:32:58.448+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:32:58.448+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:32:58.457+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:32:58.518+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:32:58.517+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:32:58.521+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:32:58.521+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:32:58.527+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T19:34:11.516+1100] {processor.py:186} INFO - Started process (PID=64541) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:34:11.517+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:34:11.518+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:34:11.518+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:34:11.527+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:34:11.589+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:34:11.589+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:34:11.592+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:34:11.592+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:34:11.599+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2024-11-13T19:35:35.610+1100] {processor.py:186} INFO - Started process (PID=64783) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:35:35.611+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:35:35.612+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:35:35.612+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:35:35.621+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:35:35.679+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:35:35.679+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:35:35.683+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:35:35.683+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:35:35.690+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T19:36:59.106+1100] {processor.py:186} INFO - Started process (PID=64951) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:36:59.107+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:36:59.108+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:36:59.107+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:36:59.117+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:36:59.174+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:36:59.174+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:36:59.178+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:36:59.178+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:36:59.184+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:38:09.076+1100] {processor.py:186} INFO - Started process (PID=65082) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:38:09.077+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:38:09.078+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:38:09.077+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:38:09.087+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:38:09.146+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:38:09.146+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:38:09.150+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:38:09.150+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:38:09.156+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T19:39:16.968+1100] {processor.py:186} INFO - Started process (PID=65231) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:39:16.970+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:39:16.970+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:39:16.970+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:39:16.979+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:39:17.037+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:39:17.037+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:39:17.040+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:39:17.040+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:39:17.047+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:40:22.766+1100] {processor.py:186} INFO - Started process (PID=65390) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:40:22.767+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:40:22.768+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:40:22.768+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:40:22.779+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:40:22.846+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:40:22.845+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:40:22.850+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:40:22.849+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:40:22.857+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.094 seconds
+[2024-11-13T19:41:33.364+1100] {processor.py:186} INFO - Started process (PID=65523) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:41:33.365+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:41:33.365+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:41:33.365+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:41:33.375+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:41:33.435+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:41:33.435+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:41:33.438+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:41:33.438+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:41:33.445+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T19:42:43.097+1100] {processor.py:186} INFO - Started process (PID=65655) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:42:43.097+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:42:43.098+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:42:43.098+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:42:43.107+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:42:43.165+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:42:43.165+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:42:43.168+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:42:43.168+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:42:43.174+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2024-11-13T19:43:49.813+1100] {processor.py:186} INFO - Started process (PID=65782) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:43:49.815+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:43:49.815+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:43:49.815+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:43:49.824+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:43:49.881+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:43:49.881+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:43:49.885+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:43:49.885+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:43:49.891+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2024-11-13T19:45:01.181+1100] {processor.py:186} INFO - Started process (PID=65923) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:45:01.182+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:45:01.182+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:45:01.182+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:45:01.191+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:45:01.250+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:45:01.250+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:45:01.253+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:45:01.253+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:45:01.259+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:46:06.615+1100] {processor.py:186} INFO - Started process (PID=66050) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:46:06.617+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:46:06.617+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:46:06.617+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:46:06.626+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:46:06.684+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:46:06.684+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:46:06.687+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:46:06.687+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:46:06.694+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2024-11-13T19:47:11.862+1100] {processor.py:186} INFO - Started process (PID=66173) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:47:11.863+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:47:11.864+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:47:11.864+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:47:11.873+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:47:11.930+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:47:11.930+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:47:11.934+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:47:11.934+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:47:11.940+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:48:18.349+1100] {processor.py:186} INFO - Started process (PID=66296) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:48:18.350+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:48:18.351+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:48:18.351+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:48:18.361+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:48:18.421+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:48:18.421+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:48:18.425+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:48:18.425+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:48:18.431+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2024-11-13T19:49:24.597+1100] {processor.py:186} INFO - Started process (PID=66418) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:49:24.598+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:49:24.598+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:49:24.598+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:49:24.607+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:49:24.665+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:49:24.665+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:49:24.669+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:49:24.668+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:49:24.675+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2024-11-13T19:50:26.652+1100] {processor.py:186} INFO - Started process (PID=66533) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:50:26.653+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:50:26.654+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:50:26.654+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:50:26.663+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:50:26.725+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:50:26.725+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:50:26.728+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:50:26.728+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:50:26.736+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.087 seconds
+[2024-11-13T19:51:36.412+1100] {processor.py:186} INFO - Started process (PID=66656) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:51:36.413+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:51:36.414+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:51:36.414+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:51:36.423+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:51:36.481+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:51:36.481+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:51:36.485+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:51:36.484+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:51:36.491+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:52:46.791+1100] {processor.py:186} INFO - Started process (PID=66782) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:52:46.792+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:52:46.793+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:52:46.793+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:52:46.802+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:52:46.860+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:52:46.860+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:52:46.864+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:52:46.863+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:52:46.870+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:53:55.287+1100] {processor.py:186} INFO - Started process (PID=66921) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:53:55.289+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:53:55.289+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:53:55.289+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:53:55.298+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:53:55.356+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:53:55.356+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:53:55.360+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:53:55.360+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:53:55.366+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:55:06.023+1100] {processor.py:186} INFO - Started process (PID=67061) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:55:06.024+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:55:06.025+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:55:06.025+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:55:06.034+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:55:06.092+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:55:06.092+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:55:06.095+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:55:06.095+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:55:06.102+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:56:16.611+1100] {processor.py:186} INFO - Started process (PID=67196) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:56:16.612+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:56:16.613+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:56:16.613+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:56:16.622+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:56:16.680+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:56:16.680+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:56:16.683+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:56:16.683+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:56:16.690+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2024-11-13T19:57:25.665+1100] {processor.py:186} INFO - Started process (PID=67323) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:57:25.665+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:57:25.666+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:57:25.666+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:57:25.675+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:57:25.733+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:57:25.733+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:57:25.737+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:57:25.737+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:57:25.743+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T19:58:34.001+1100] {processor.py:186} INFO - Started process (PID=67443) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:58:34.002+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:58:34.003+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:58:34.002+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:58:34.012+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:58:34.071+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:58:34.071+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:58:34.074+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:58:34.074+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:58:34.080+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T19:59:39.139+1100] {processor.py:186} INFO - Started process (PID=67567) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:59:39.140+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T19:59:39.141+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:59:39.141+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:59:39.150+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T19:59:39.208+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:59:39.207+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T19:59:39.211+1100] {logging_mixin.py:190} INFO - [2024-11-13T19:59:39.211+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T19:59:39.218+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T20:00:48.211+1100] {processor.py:186} INFO - Started process (PID=67692) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:00:48.212+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:00:48.213+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:00:48.213+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:00:48.222+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:00:48.280+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:00:48.280+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:00:48.284+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:00:48.284+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:00:48.290+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:01:56.864+1100] {processor.py:186} INFO - Started process (PID=67816) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:01:56.866+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:01:56.866+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:01:56.866+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:01:56.876+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:01:56.934+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:01:56.934+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:01:56.937+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:01:56.937+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:01:56.944+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:03:02.933+1100] {processor.py:186} INFO - Started process (PID=67936) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:03:02.935+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:03:02.935+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:03:02.935+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:03:02.944+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:03:03.023+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:03:03.023+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:03:03.026+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:03:03.026+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:03:03.034+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.103 seconds
+[2024-11-13T20:04:11.987+1100] {processor.py:186} INFO - Started process (PID=68059) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:04:11.989+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:04:11.989+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:04:11.989+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:04:11.999+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:04:12.056+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:04:12.056+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:04:12.060+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:04:12.059+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:04:12.066+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T20:05:19.092+1100] {processor.py:186} INFO - Started process (PID=68203) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:05:19.093+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:05:19.094+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:05:19.094+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:05:19.104+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:05:19.165+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:05:19.165+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:05:19.169+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:05:19.169+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:05:19.175+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2024-11-13T20:06:29.375+1100] {processor.py:186} INFO - Started process (PID=68345) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:06:29.377+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:06:29.377+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:06:29.377+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:06:29.387+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:06:29.447+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:06:29.446+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:06:29.450+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:06:29.450+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:06:29.456+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:07:41.437+1100] {processor.py:186} INFO - Started process (PID=68480) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:07:41.438+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:07:41.438+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:07:41.438+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:07:41.448+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:07:41.517+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:07:41.516+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:07:41.521+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:07:41.521+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:07:41.528+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.094 seconds
+[2024-11-13T20:08:50.788+1100] {processor.py:186} INFO - Started process (PID=68617) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:08:50.790+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:08:50.791+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:08:50.790+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:08:50.800+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:08:50.861+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:08:50.861+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:08:50.864+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:08:50.864+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:08:50.871+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:10:02.364+1100] {processor.py:186} INFO - Started process (PID=68756) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:10:02.365+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:10:02.366+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:10:02.366+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:10:02.375+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:10:02.435+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:10:02.435+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:10:02.439+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:10:02.439+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:10:02.445+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:11:10.608+1100] {processor.py:186} INFO - Started process (PID=68894) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:11:10.609+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:11:10.609+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:11:10.609+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:11:10.618+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:11:10.678+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:11:10.678+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:11:10.682+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:11:10.682+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:11:10.688+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:12:17.932+1100] {processor.py:186} INFO - Started process (PID=69022) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:12:17.933+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:12:17.934+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:12:17.934+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:12:17.944+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:12:18.027+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:12:18.026+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:12:18.031+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:12:18.031+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:12:18.039+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.110 seconds
+[2024-11-13T20:13:27.025+1100] {processor.py:186} INFO - Started process (PID=69150) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:13:27.026+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:13:27.026+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:13:27.026+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:13:27.037+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:13:27.097+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:13:27.097+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:13:27.101+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:13:27.101+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:13:27.107+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2024-11-13T20:14:35.713+1100] {processor.py:186} INFO - Started process (PID=69271) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:14:35.714+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:14:35.714+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:14:35.714+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:14:35.724+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:14:35.785+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:14:35.785+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:14:35.788+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:14:35.788+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:14:35.795+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:15:46.370+1100] {processor.py:186} INFO - Started process (PID=69398) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:15:46.370+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:15:46.371+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:15:46.371+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:15:46.381+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:15:46.441+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:15:46.441+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:15:46.445+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:15:46.445+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:15:46.452+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:16:52.457+1100] {processor.py:186} INFO - Started process (PID=69521) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:16:52.457+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:16:52.458+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:16:52.458+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:16:52.468+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:16:52.529+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:16:52.529+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:16:52.532+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:16:52.532+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:16:52.539+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:18:03.605+1100] {processor.py:186} INFO - Started process (PID=69648) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:18:03.606+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:18:03.607+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:18:03.607+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:18:03.616+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:18:03.678+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:18:03.678+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:18:03.681+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:18:03.681+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:18:03.688+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:19:12.138+1100] {processor.py:186} INFO - Started process (PID=69814) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:19:12.139+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:19:12.140+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:19:12.139+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:19:12.149+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:19:12.211+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:19:12.211+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:19:12.215+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:19:12.215+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:19:12.221+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.086 seconds
+[2024-11-13T20:20:23.016+1100] {processor.py:186} INFO - Started process (PID=69998) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:20:23.017+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:20:23.018+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:20:23.018+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:20:23.027+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:20:23.087+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:20:23.087+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:20:23.090+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:20:23.090+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:20:23.096+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:21:33.118+1100] {processor.py:186} INFO - Started process (PID=70170) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:21:33.118+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:21:33.119+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:21:33.119+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:21:33.129+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:21:33.188+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:21:33.188+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:21:33.192+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:21:33.191+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:21:33.199+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:22:38.868+1100] {processor.py:186} INFO - Started process (PID=70293) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:22:38.869+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:22:38.870+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:22:38.869+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:22:38.879+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:22:38.939+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:22:38.939+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:22:38.943+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:22:38.943+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:22:38.949+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:23:44.879+1100] {processor.py:186} INFO - Started process (PID=70425) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:23:44.881+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:23:44.881+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:23:44.881+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:23:44.891+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:23:44.950+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:23:44.950+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:23:44.953+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:23:44.953+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:23:44.959+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:24:51.122+1100] {processor.py:186} INFO - Started process (PID=70547) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:24:51.124+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:24:51.124+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:24:51.124+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:24:51.134+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:24:51.192+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:24:51.192+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:24:51.196+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:24:51.196+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:24:51.203+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T20:25:59.684+1100] {processor.py:186} INFO - Started process (PID=70674) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:25:59.685+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:25:59.686+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:25:59.686+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:25:59.695+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:25:59.754+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:25:59.754+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:25:59.758+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:25:59.758+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:25:59.764+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T20:27:09.803+1100] {processor.py:186} INFO - Started process (PID=70828) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:27:09.804+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:27:09.805+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:27:09.804+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:27:09.814+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:27:09.873+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:27:09.873+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:27:09.877+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:27:09.877+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:27:09.883+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:28:17.264+1100] {processor.py:186} INFO - Started process (PID=70966) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:28:17.264+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:28:17.265+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:28:17.265+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:28:17.274+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:28:17.332+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:28:17.332+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:28:17.335+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:28:17.335+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:28:17.342+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T20:29:24.365+1100] {processor.py:186} INFO - Started process (PID=71101) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:29:24.367+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:29:24.367+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:29:24.367+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:29:24.376+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:29:24.435+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:29:24.435+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:29:24.438+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:29:24.438+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:29:24.445+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:30:33.563+1100] {processor.py:186} INFO - Started process (PID=71226) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:30:33.563+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:30:33.564+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:30:33.564+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:30:33.573+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:30:33.632+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:30:33.632+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:30:33.635+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:30:33.635+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:30:33.642+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T20:31:42.956+1100] {processor.py:186} INFO - Started process (PID=71351) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:31:42.957+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:31:42.957+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:31:42.957+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:31:42.966+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:31:43.025+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:31:43.025+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:31:43.029+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:31:43.029+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:31:43.036+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:32:53.665+1100] {processor.py:186} INFO - Started process (PID=71480) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:32:53.666+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:32:53.667+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:32:53.667+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:32:53.677+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:32:53.735+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:32:53.735+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:32:53.739+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:32:53.739+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:32:53.745+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T20:34:03.553+1100] {processor.py:186} INFO - Started process (PID=71608) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:34:03.554+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:34:03.554+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:34:03.554+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:34:03.564+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:34:03.623+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:34:03.623+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:34:03.627+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:34:03.627+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:34:03.633+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:35:15.922+1100] {processor.py:186} INFO - Started process (PID=71749) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:35:15.923+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:35:15.924+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:35:15.924+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:35:15.933+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:35:15.992+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:35:15.992+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:35:15.995+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:35:15.995+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:35:16.001+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:36:25.067+1100] {processor.py:186} INFO - Started process (PID=71887) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:36:25.067+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:36:25.068+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:36:25.068+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:36:25.078+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:36:25.139+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:36:25.139+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:36:25.142+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:36:25.142+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:36:25.148+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2024-11-13T20:37:33.876+1100] {processor.py:186} INFO - Started process (PID=72043) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:37:33.877+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:37:33.877+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:37:33.877+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:37:33.887+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:37:33.946+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:37:33.946+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:37:33.949+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:37:33.949+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:37:33.956+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:38:41.724+1100] {processor.py:186} INFO - Started process (PID=72179) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:38:41.725+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:38:41.725+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:38:41.725+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:38:41.735+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:38:41.793+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:38:41.793+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:38:41.797+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:38:41.797+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:38:41.803+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T20:39:50.324+1100] {processor.py:186} INFO - Started process (PID=72309) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:39:50.325+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:39:50.326+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:39:50.326+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:39:50.335+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:39:50.393+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:39:50.392+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:39:50.396+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:39:50.396+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:39:50.402+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2024-11-13T20:41:00.297+1100] {processor.py:186} INFO - Started process (PID=72439) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:41:00.298+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:41:00.299+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:41:00.298+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:41:00.307+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:41:00.367+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:41:00.366+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:41:00.370+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:41:00.370+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:41:00.376+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2024-11-13T20:42:13.361+1100] {processor.py:186} INFO - Started process (PID=72570) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:42:13.362+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:42:13.363+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:42:13.362+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:42:13.372+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:42:13.429+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:42:13.429+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:42:13.432+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:42:13.432+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:42:13.439+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2024-11-13T20:43:19.882+1100] {processor.py:186} INFO - Started process (PID=72696) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:43:19.884+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:43:19.884+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:43:19.884+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:43:19.894+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:43:19.954+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:43:19.954+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:43:19.958+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:43:19.957+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:43:19.966+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2024-11-13T20:44:29.586+1100] {processor.py:186} INFO - Started process (PID=72842) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:44:29.587+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:44:29.588+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:44:29.588+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:44:29.599+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:44:29.658+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:44:29.658+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:44:29.662+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:44:29.662+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:44:29.670+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.086 seconds
+[2024-11-13T20:45:40.821+1100] {processor.py:186} INFO - Started process (PID=72969) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:45:40.821+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:45:40.822+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:45:40.822+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:45:40.831+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:45:40.891+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:45:40.891+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:45:40.894+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:45:40.894+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:45:40.901+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2024-11-13T20:46:52.901+1100] {processor.py:186} INFO - Started process (PID=73104) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:46:52.903+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:46:52.903+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:46:52.903+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:46:52.913+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:46:52.978+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:46:52.977+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:46:52.981+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:46:52.981+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:46:52.987+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2024-11-13T20:48:02.943+1100] {processor.py:186} INFO - Started process (PID=73241) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:48:02.944+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:48:02.945+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:48:02.944+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:48:02.954+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:48:03.016+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:48:03.016+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:48:03.020+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:48:03.020+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:48:03.026+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2024-11-13T20:49:15.456+1100] {processor.py:186} INFO - Started process (PID=73380) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:49:15.456+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:49:15.457+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:49:15.457+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:49:15.466+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:49:15.531+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:49:15.530+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:49:15.534+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:49:15.534+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:49:15.541+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2024-11-13T20:50:29.129+1100] {processor.py:186} INFO - Started process (PID=73519) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:50:29.130+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:50:29.130+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:50:29.130+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:50:29.140+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:50:29.204+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:50:29.204+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:50:29.208+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:50:29.208+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:50:29.216+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.090 seconds
+[2024-11-13T20:51:39.764+1100] {processor.py:186} INFO - Started process (PID=73655) to work on /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:51:39.765+1100] {processor.py:914} INFO - Processing file /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-13T20:51:39.766+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:51:39.766+1100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:51:39.775+1100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-13T20:51:39.834+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:51:39.834+1100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-13T20:51:39.837+1100] {logging_mixin.py:190} INFO - [2024-11-13T20:51:39.837+1100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-13T20:51:39.844+1100] {processor.py:208} INFO - Processing /Users/yoonmoon/git/learn-airflow/airflow1/py_env/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
