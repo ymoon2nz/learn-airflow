@@ -8,6 +8,7 @@ Learn Airflow
 * Create Virtual Env
 ```
 python -m venv py_env
+source py_env/bin/activate
 ```
 * Install Airflow
 ```
@@ -16,6 +17,7 @@ pip3 install apache-airflow
 
 ### Start Airflow Standalone
 ```
+export AIRFLOW_HOME=~/airflow
 airflow db init
 airflow standalone
 ```
