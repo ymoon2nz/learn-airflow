@@ -7,6 +7,15 @@ Airflow Tutorial
 * Quick Start: https://airflow.apache.org/docs/apache-airflow/stable/start.html
 
 ## Standardalone
+* Prep linux
+```
+sudo apt-get update
+sudo apt-get install build-essential 
+sudo apt-get install libssl-dev
+sudo apt-get install -y python3 python3-pip python3-dev python3-venv
+
+```
+
 * Prep .gitignore
 ```
 py_env/
@@ -19,13 +28,16 @@ simple_auth_manager_passwords.json.generated
 
 * Start
 ```
-sudo apt-get install -y python3 python3-pip
 python3 -m venv py_env
 source py_env/bin/activate
-pip install apache-airflow
-pip install apache-airflow-providers-sqlite
+pip3 install --upgrade pip setuptools
+pip3 install apache-airflow
+pip3 install apache-airflow-providers-sqlite
 #export AIRFLOW_HOME=~/airflow
 export AIRFLOW_HOME=$(pwd)
+echo $AIRFLOW_HOME
+rm airflow.cfg
+rm airflow.db
 airflow db migrate
 airflow standalone
 ```
@@ -51,10 +63,11 @@ airflow db migrate
 
 airflow users create \
     --username admin \
-    --firstname Peter \
-    --lastname Parker \
+    --password admin \
+    --firstname Airflow \
+    --lastname Admin \
     --role Admin \
-    --email spiderman@superhero.org
+    --email admin@example.com
 
 airflow webserver --port 8080
 
